@@ -1,0 +1,12 @@
+Nodemcu(ESP8266) board configuration:
+	1- Open Nodemcu folder -> Open Arduino Nodemcu.ino -> From "File" choose "Prefrences"
+	2- At "Additional Boards Manager URLs:" add the following: "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+	3- From "Tools" chooser "Board:" section and open "Boards Manager..."
+	4- When boards manager opens type in the search bar: "esp8266"
+	5- Install the "esp8266 by esp8266 community" library 
+
+Libraries you need to install:
+*** From "Sketch" choose "Include Library" then "Manage Libraries" then install the following:
+	1- Keypad "by mark stanley, Alexander brevig"
+	2- Firebase ESP8266 Client
+	3- MFRC522 "by Github community"
